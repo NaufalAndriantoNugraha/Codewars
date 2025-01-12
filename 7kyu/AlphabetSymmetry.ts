@@ -9,35 +9,7 @@ export function solve(arr: Array<String>): Array<Number> {
   const arrLowerCase: Array<String> = [];
   arr.forEach((word) => arrLowerCase.push(word.toLowerCase()));
 
-  const alphabet: Array<String> = [
-    'a',
-    'b',
-    'c',
-    'd',
-    'e',
-    'f',
-    'g',
-    'h',
-    'i',
-    'j',
-    'k',
-    'l',
-    'm',
-    'n',
-    'o',
-    'p',
-    'q',
-    'r',
-    's',
-    't',
-    'u',
-    'v',
-    'w',
-    'x',
-    'y',
-    'z',
-  ];
-
+  const alphabet = 'abcdefghijklmnopqrstuvwxyz';
   const result: Array<Number> = [];
   arrLowerCase.forEach((value) => {
     let counter = 0;
